@@ -12,6 +12,12 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%'
       },
+
+      buttonContainer:{
+        position: 'absolute',
+        bottom: 50,
+        width: '100%'
+      },
     
       titles: {
         marginTop: '30%',
@@ -27,6 +33,10 @@ const styles = StyleSheet.create({
       subTitle: {
         fontSize: 16,
         color: 'gray'
+      },
+
+      tagLineCTA: {
+        textDecorationLine: 'underline'
       },
     
       image: {
